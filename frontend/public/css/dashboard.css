@@ -1,0 +1,211 @@
+@media (min-width:1000px) and (max-width:1500px) {
+.compose{
+    height: 6vh;
+    width: 10vw;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    margin-left: 1.6vw;
+    font-size: 1.3vw;
+    font-weight: normal;
+}
+.emailsuccess{
+    height: 8vh;
+    width: 34vh;
+    margin: auto 15vw;
+    border-radius: 20px;
+    margin-top: 2vh;
+    border: 2px solid  rgb(176, 48, 57);
+    background-color: rgb(235, 171, 175);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+.dashiconhead{
+    height: 8vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.5vw;
+}
+.dashh1{
+    margin-left: 2vw;
+    font-size: 4vh;
+}
+.dashimage{
+    height: 7vh;
+    width: 7vw;
+    background-size: cover;
+}
+.compose:hover{
+    background-color: rgb(226, 225, 225);
+}
+.dashheader{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 99vw;
+}
+.dashmain{
+    height: 80vh;
+    width: 99vw;
+    display:flex ;
+}
+.dashmainleft{
+    height: 60vh;
+    width: 20vw;
+    margin: 2vh 2vw;
+}
+.dashmainright{
+    height: 70vh;
+    width: 70vw;
+    margin: 2vh 2vw;
+    border-radius: 20px;
+    /* background-color: rgb(159, 164, 161); */
+}
+iframe{
+    height: 70vh;
+    width: 70vw;
+}
+.inboxes{
+    height: 6vh;
+    width: 20vw;
+    color: black;
+    margin:0.5vh auto;
+    text-align: left;
+    background-color: rgb(248, 232, 233);
+    border: none;
+    font-weight: normal;
+    font-size: 1.3vw;
+}
+.sent{
+    height: 6vh;
+    width: 20vw;
+    color: black;
+    border: none;
+    margin: 0.5vh auto;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.3vw;
+    background-color: rgb(248, 232, 233);
+}
+.dashbuttons:hover{
+    background-color:rgb(221, 219, 219);
+    border-radius: 20px;
+}
+.dashicons{
+    margin: auto 1vw;
+}
+.dashemail{
+    font-size: 1.3vw;
+    color: rgb(105, 0, 102);
+    margin-left: 0.2vw;
+    cursor: pointer;
+}
+.dashemailicon{
+    margin: auto 0.5vw;
+    color: black;
+}
+}
+@media (min-width:10px) and (max-width:1000px) {
+    .compose{
+        height: 6vh;
+        width: 10vw;
+        border-radius: 20px;
+        color: black;
+        background-color: white;
+        margin-left: 1.6vw;
+        font-size: 1.3vw;
+        font-weight: normal;
+    }
+    .emailsuccess{
+        height: 8vh;
+        width: 34vh;
+        margin: auto 15vw;
+        border-radius: 20px;
+        margin-top: 2vh;
+        border: 2px solid  rgb(59, 48, 176);
+        background-color: rgb(180, 171, 235);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5vw;
+    }
+    .dashiconhead{
+        height: 8vh;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1.5vw;
+    }
+    .dashh1{
+        margin-left: 2vw;
+        font-size: 4vh;
+    }
+    .dashimage{
+        height: 7vh;
+        width: 7vw;
+        background-size: cover;
+    }
+    .compose:hover{
+        background-color: rgb(191, 232, 199);
+    }
+    .dashheader{
+        display: flex;
+        align-items: center;
+        height: 8vh;
+        width: 99vw;
+    }
+    .dashmain{
+        height: 80vh;
+        width: 99vw;
+        display:flex ;
+    }
+    .dashmainleft{
+        height: 60vh;
+        width: 20vw;
+        margin: 2vh 2vw;
+    }
+    .dashmainright{
+        height: 70vh;
+        width: 70vw;
+        margin: 2vh 2vw;
+        border-radius: 20px;
+        /* background-color: rgb(159, 164, 161); */
+    }
+    iframe{
+        height: 70vh;
+        width: 70vw;
+    }
+    .sent{
+        height: 6vh;
+        width: 20vw;
+        color: black;
+        border: none;
+        margin: 0.5vh auto;
+        text-align: left;
+        font-weight: normal;
+        font-size: 1.3vw;
+        background-color: rgb(247, 248, 232);
+    }
+    .dashbuttons:hover{
+        background-color:rgb(219, 221, 221);
+        border-radius: 20px;
+    }
+    .dashicons{
+        margin: auto 1vw;
+    }
+    .dashemail{
+        font-size: 1.3vw;
+        color: rgb(105, 0, 102);
+        margin-left: 0.2vw;
+        cursor: pointer;
+    }
+    .dashemailicon{
+        margin: auto 0.5vw;
+        color: black;
+    }
+    }

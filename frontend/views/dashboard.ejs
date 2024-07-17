@@ -1,0 +1,46 @@
+<div class="dashheader">
+    <h1 class="dashh1">Welcome <%=name%> !</h1>
+    <p class="dashemail"><i class="fa-solid fa-user-tie dashemailicon"></i><%=email%></p>
+    <%if(message!==" "){%>
+        <p class="emailsuccess"><i class="fa-solid fa-check"></i><%=message%></p>
+    <%}%>
+</div>
+<div class="dashiconhead">
+    <img src="../nodemailericon.png" class="dashimage">
+    <button class="compose" id="compose"><i class="fa-solid fa-pen"></i>Compose</button>
+</div>
+<div class="dashmain">
+    <div class="dashmainleft">
+        <button class="sent dashbuttons" id="sent"><i class="fa-regular fa-paper-plane dashicons"></i>Sent</button>
+    </div>
+    <div class="dashmainright" id="right">
+        <%if(content==="sent"){%>
+            <iframe src="sent" frameborder="2px" style="border: 2px solid rgb(248, 232, 233);"></iframe>
+        <%}%>
+    </div>
+</div>
+<script>
+    const compose=document.getElementById("compose");
+    compose.addEventListener("click",()=>{
+        fetch('compose')
+            .then(data => data.text())
+            .then(design => {
+                document.getElementById("right").innerHTML = design;
+            })
+            .catch(error => {
+                console.error('Error loading the compose page:', error);
+            });
+       
+
+    })
+
+    const sent=document.getElementById("sent");
+    sent.addEventListener("click",()=>{
+        const iframe=document.createElement("iframe");
+        iframe.src="sent";
+        iframe.frameBorder="2px";
+        iframe.style="border: 2px solid rgb(248, 232, 233)";
+        document.getElementById("right").innerHTML =" ";
+        document.getElementById("right").appendChild(iframe);
+    })
+</script>

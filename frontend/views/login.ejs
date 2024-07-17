@@ -1,0 +1,41 @@
+
+<div class="page">
+    <div class="heading">
+        Login 
+    </div>
+    <div class="main">
+        <form action="/login" method="post">
+            <div class="inputs">
+                <i class="fa-solid fa-user" class="icons"></i>
+                Name : <input type="text" name="name">
+            </div>
+            <div class="inputs">
+                <i class="fa-solid fa-envelope" class="icons"></i>
+                Email : <input type="email" required name="email">
+            </div>
+            <div class="inputs">
+                <i class="fa-solid fa-lock" class="icons"></i>
+                Password : <input type="password" required name="password">
+            </div>
+            <%if(message!==" "){%>
+                <%if(message==="Invalid Credentials"){%>
+                <div class="invalidyes">
+                    <i class="fa-solid fa-xmark"></i>
+                    <%=message%>
+                </div>
+                <%}else{%>
+                    <div class="invalidyes">
+                        <%=message%>
+                    </div>
+                <%}%>
+            <%}%>
+            <div class="login">
+                <button>Login</button>
+            </div>
+            <div class="link">
+                <a href="/register" class="a">New? Create Account</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/js/login.js"></script>

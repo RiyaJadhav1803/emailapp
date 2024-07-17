@@ -1,0 +1,22 @@
+@media (min-width:670px) and (max-width:1500px) {
+.sentdiv{
+    height: 50vh;
+    width:95vw;
+    background-color: rgb(186, 182, 182);
+    color: rgb(0, 0, 0);
+    margin: 1vh;
+    padding: 7px;
+    font-size: 1.5vw;
+}
+}
+@media (min-width:10px) and (max-width:670px) {
+    .sentdiv{
+        height: 50vh;
+        width:95vw;
+        background-color: rgb(253, 214, 248);
+        color: rgb(0, 0, 0);
+        margin: 1vh;
+        padding: 7px;
+        font-size: 1.5vw;
+    }
+}

@@ -1,0 +1,94 @@
+@media (min-width:1000px) and (max-width:1500px) {
+    .pagereg{
+        height: 80vh;
+        width: 40vw;
+        background-color: rgb(99, 237, 235);
+        margin: 8vh auto;
+        padding: 20px auto;
+        border-radius: 20px;
+        box-shadow: inset -13px -13px 17px #ffffff73 ,inset 13px 13px 17px rgba(94,104,121,0.288);
+    }
+    .headingreg{
+        height: 100px;
+        width: 100%;
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+    .mainreg{
+        height: 100%;
+    }
+    .inputsreg{
+        height: 8.7vh;
+        margin: 0.5vh 2.5vw;
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+    .loginreg{
+        height: 4vh;
+        width: 7vw;
+        margin: 1vh auto;
+    }
+    button{
+        height: 4vh;
+        width: 7vw;
+        background-color: rgb(254, 167, 167);
+        color: black;
+        font-weight: 600;
+        font-size: 1.5vw;
+    }
+    .inputtags{
+        margin: 0px 20px;
+        height: 20px;
+        width: 34vw;
+    }
+    }
+    @media (min-width:10px) and (max-width:1000px) {
+        .pagereg{
+            height: 80vh;
+            width: 40vw;
+            background-color: rgb(249, 125, 239);
+            margin: 8vh auto;
+            padding: 20px auto;
+            border-radius: 20px;
+            box-shadow: inset -13px -13px 17px #ffffff73 ,inset 13px 13px 17px rgba(94,104,121,0.288);
+        }
+        .headingreg{
+            height: 100px;
+            width: 100%;
+            font-size: 3vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+        }
+        .mainreg{
+            height: 100%;
+        }
+        .inputsreg{
+            height: 8.7vh;
+            margin: 0.5vh 2.5vw;
+            font-size: 1.5vw;
+            font-weight: 600;
+        }
+        .loginreg{
+            height: 4vh;
+            width: 7vw;
+            margin: 1vh auto;
+        }
+        button{
+            height: 4vh;
+            width: 7vw;
+            background-color: rgb(254, 167, 167);
+            color: black;
+            font-weight: 600;
+            font-size: 1.5vw;
+        }
+        .inputtags{
+            margin: 0px 20px;
+            height: 20px;
+            width: 34vw;
+        }
+    } 

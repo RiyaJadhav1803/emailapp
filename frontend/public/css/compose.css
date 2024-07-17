@@ -1,0 +1,86 @@
+@media (min-width:1000px) and (max-width:1500px) {
+.to{
+    margin-left: 1.5vw;
+}
+.Subject{
+    margin-left: 1.5vw;
+}
+.textarea{
+    margin-left: 1.5vw;
+}
+.composetextarea{
+    border-radius: 10px;
+    height: 50vh;
+    width: 55vw; 
+}
+.composeto{
+    border: none;
+    margin-left: 3vw;
+    width: 50vw;
+   background-color: rgb(248, 232, 233);;
+    border-bottom: 2px solid rgb(130, 127, 127);
+}
+.composesubject{
+    border: none;
+    margin-left: 0.5vw;
+    width: 50vw;
+   background-color: rgb(248, 232, 233);;
+    border-bottom: 2px solid rgb(130, 127, 127);
+}
+.sentbutton{
+    height: 5vh;
+    width: 12vh;
+    font-size: 1.5vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: auto 50vw;
+    border-radius: 20px;
+}
+.sentbutton:hover{
+    background-color: rgb(205, 209, 205);
+    color: black;
+}
+}
+@media (min-width:10px) and (max-width:1000px) {
+    .to{
+        margin-left: 1.5vw;
+    }
+    .Subject{
+        margin-left: 1.5vw;
+    }
+    .textarea{
+        margin-left: 1.5vw;
+    }
+    .composetextarea{
+        border-radius: 10px;
+        height: 50vh;
+        width: 55vw; 
+    }
+    .composeto{
+        border: none;
+        margin-left: 3vw;
+        width: 50vw;
+       background-color: rgb(248, 232, 233);;
+        border-bottom: 2px solid rgb(130, 127, 127);
+    }
+    .composesubject{
+        border: none;
+        margin-left: 0.5vw;
+        width: 50vw;
+       background-color: rgb(248, 232, 233);;
+        border-bottom: 2px solid rgb(130, 127, 127);
+    }
+    .sentbutton{
+        height: 5vh;
+        width: 12vh;
+        font-size: 1.5vw;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        margin: auto 50vw;
+        border-radius: 20px;
+    }
+    .sentbutton:hover{
+        background-color: rgb(205, 209, 205);
+        color: rgb(8, 5, 95);
+    }
+}
