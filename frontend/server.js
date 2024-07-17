@@ -4,6 +4,7 @@ const app=express();
 const PORT=process.env.PORT|| 2020;
 require('dotenv').config();
 const nodemailer=require("nodemailer");
+const path = require('path');
 const ejsLay=require("express-ejs-layouts");
 const cookieParser = require("cookie-parser");
 const url=process.env.mongostring;
