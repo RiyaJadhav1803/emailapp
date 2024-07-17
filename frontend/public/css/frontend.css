@@ -82,7 +82,7 @@
     }
 }
 
-@media (min-width:1000px) and (max-width:1500px) {
+@media (min-width:1000px) and (max-width:1600px) {
     .head {
         background-color: rgba(232, 37, 40, 0.812);
         height: 7vh;
