@@ -15,9 +15,9 @@
   },
   "name": "emailapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon server"
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",
