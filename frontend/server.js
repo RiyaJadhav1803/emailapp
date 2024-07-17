@@ -1,7 +1,7 @@
 const express=require("express");
 const mongoose=require("mongoose");
 const app=express();
-const PORT=2020;
+const PORT=process.env.PORT|| 2020;
 require('dotenv').config();
 const nodemailer=require("nodemailer");
 const ejsLay=require("express-ejs-layouts");
